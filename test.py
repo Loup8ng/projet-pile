@@ -18,8 +18,6 @@ pile=Pile()
 
 class Boules():
     
-    
-    
     def __init__(self):
         """
         définie le début de notre class
