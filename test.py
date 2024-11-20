@@ -82,7 +82,7 @@ def test_Fiole ():
 def test_tous(): 
     print("test de toutes les fonctions")
     assert test_Fiole()
-    assert affichage()   
+    assert affichage()  
 
 
 
