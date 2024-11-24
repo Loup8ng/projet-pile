@@ -1,6 +1,7 @@
 import pygame
 import math
 import random
+import time
 
 class Pile ():
     def __init__(self):
@@ -17,8 +18,6 @@ class Pile ():
 pile=Pile()
 
 class Boules():
-    
-    
     
     def __init__(self):
         """
@@ -72,7 +71,7 @@ def affichage (nb_fioles=4,nb_boules=3):
             b.append(boule.couleur())
     return b
     
-    
+
 def test_Fiole (): 
     print ("Test de la classe Fiole")
     assert Fiole.est_remplie()
